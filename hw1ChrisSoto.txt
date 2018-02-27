@@ -1,0 +1,270 @@
+Script started on 2018-01-22 22:47:30-0800
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ echo $sd[Khell[K[K[K[K[KSHELL
+/bin/bash
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         hw1ChrisSoto.txt  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m             [01;34mPublic[0m    [01;34mVideos[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls -l
+total 44
+drwxr-xr-x 2 csoto csoto 4096 Jan 22 22:46 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 csoto csoto 4096 Jan 22 22:46 [01;34mDocuments[0m
+drwxr-xr-x 2 csoto csoto 4096 Jan 22 22:46 [01;34mDownloads[0m
+-rw-r--r-- 1 csoto csoto 8980 Jan 22 22:37 examples.desktop
+-rw-r--r-- 1 csoto csoto    0 Jan 22 22:47 hw1ChrisSoto.txt
+drwxr-xr-x 2 csoto csoto 4096 Jan 22 22:46 [01;34mMusic[0m
+drwxr-xr-x 2 csoto csoto 4096 Jan 22 22:46 [01;34mPictures[0m
+drwxr-xr-x 2 csoto csoto 4096 Jan 22 22:46 [01;34mPublic[0m
+drwxr-xr-x 2 csoto csoto 4096 Jan 22 22:46 [01;34mTemplates[0m
+drwxr-xr-x 2 csoto csoto 4096 Jan 22 22:46 [01;34mVideos[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls /etc
+[0m[01;34macpi[0m                    hostname         popularity-contest.conf
+adduser.conf            hosts            [01;34mppp[0m
+[01;34malternatives[0m            hosts.allow      profile
+anacrontab              hosts.deny       [01;34mprofile.d[0m
+apg.conf                [01;34mhp[0m               protocols
+[01;34mapm[0m                     [01;34mifplugd[0m          [01;34mpulse[0m
+[01;34mapparmor[0m                [01;34mImageMagick-6[0m    [01;34mpython2.7[0m
+[01;34mapparmor.d[0m              [01;34minit[0m             [01;34mpython3[0m
+[01;34mapport[0m                  [01;34minit.d[0m           [01;34mpython3.6[0m
+appstream.conf          [01;34minitramfs-tools[0m  [01;34mrc0.d[0m
+[01;34mapt[0m                     inputrc          [01;34mrc1.d[0m
+[01;34mavahi[0m                   [01;34minsserv.conf.d[0m   [01;34mrc2.d[0m
+bash.bashrc             [01;34miproute2[0m         [01;34mrc3.d[0m
+bash_completion         issue            [01;34mrc4.d[0m
+[01;34mbash_completion.d[0m       issue.net        [01;34mrc5.d[0m
+bindresvport.blacklist  [01;34mkernel[0m           [01;34mrc6.d[0m
+[01;34mbinfmt.d[0m                kernel-img.conf  rc.local
+[01;34mbluetooth[0m               kerneloops.conf  [01;34mrcS.d[0m
+brlapi.key              [01;34mldap[0m             [01;34mresolvconf[0m
+[01;34mbrltty[0m                  ld.so.cache      [01;36mresolv.conf[0m
+brltty.conf             ld.so.conf       [01;32mrmt[0m
+[01;34mca-certificates[0m         [01;34mld.so.conf.d[0m     rpc
+ca-certificates.conf    legal            rsyslog.conf
+[01;34mcalendar[0m                libao.conf       [01;34mrsyslog.d[0m
+[01;34mchatscripts[0m             libaudit.conf    [01;34msane.d[0m
+[01;34mconsole-setup[0m           [01;34mlibnl-3[0m          securetty
+[01;34mcracklib[0m                [01;34mlibpaper.d[0m       [01;34msecurity[0m
+[01;34mcron.d[0m                  [01;34mlibreoffice[0m      [01;34mselinux[0m
+[01;34mcron.daily[0m              lintianrc        sensors3.conf
+[01;34mcron.hourly[0m             locale.alias     [01;34msensors.d[0m
+[01;34mcron.monthly[0m            locale.gen       services
+crontab                 [01;36mlocaltime[0m        shadow
+[01;34mcron.weekly[0m             [01;34mlogcheck[0m         shadow-
+[01;34mcups[0m                    login.defs       shells
+[01;34mcupshelpers[0m             logrotate.conf   [01;34mskel[0m
+[01;34mdbus-1[0m                  [01;34mlogrotate.d[0m      [01;34mspeech-dispatcher[0m
+[01;34mdconf[0m                   lsb-release      [01;34mssh[0m
+debconf.conf            ltrace.conf      [01;34mssl[0m
+debian_version          machine-id       subgid
+[01;34mdefault[0m                 magic            subgid-
+deluser.conf            magic.mime       subuid
+[01;34mdepmod.d[0m                mailcap          subuid-
+[01;34mdhcp[0m                    mailcap.order    sudoers
+[01;34mdictionaries-common[0m     manpath.config   [01;34msudoers.d[0m
+[01;34mdoc-base[0m                mime.types       sudoers.dist
+[01;34mdpkg[0m                    mke2fs.conf      sysctl.conf
+drirc                   [01;34mmodprobe.d[0m       [01;34msysctl.d[0m
+[01;34memacs[0m                   modules          [01;34msystemd[0m
+environment             [01;34mmodules-load.d[0m   [01;34mterminfo[0m
+[01;34mfirefox[0m                 [01;36mmtab[0m             [01;34mthermald[0m
+[01;34mfonts[0m                   mtools.conf      [01;34mthunderbird[0m
+fstab                   nanorc           timezone
+fuse.conf               [01;34mnetplan[0m          [01;34mtmpfiles.d[0m
+[01;34mfwupd[0m                   [01;34mnetwork[0m          ucf.conf
+fwupd.conf              [01;34mNetworkManager[0m   [01;34mudev[0m
+gai.conf                networks         [01;34mudisks2[0m
+[01;34mgdb[0m                     [01;34mnewt[0m             [01;34mufw[0m
+[01;34mgdm3[0m                    nsswitch.conf    updatedb.conf
+[01;34mgeoclue[0m                 [01;34mopt[0m              [01;34mupdate-manager[0m
+[01;34mghostscript[0m             [01;36mos-release[0m       [01;34mupdate-motd.d[0m
+[01;34mgnome[0m                   [01;34mPackageKit[0m       [01;34mupdate-notifier[0m
+[01;34mgroff[0m                   pam.conf         [01;34mUPower[0m
+group                   [01;34mpam.d[0m            usb_modeswitch.conf
+group-                  papersize        [01;34musb_modeswitch.d[0m
+[01;34mgrub.d[0m                  passwd           [01;34mvim[0m
+gshadow                 passwd-          [01;34mvmware-tools[0m
+gshadow-                [01;34mpcmcia[0m           [01;36mvtrgb[0m
+[01;34mgss[0m                     [01;34mperl[0m             wgetrc
+[01;34mgtk-2.0[0m                 [01;34mpki[0m              [01;34mwpa_supplicant[0m
+[01;34mgtk-3.0[0m                 [01;34mpm[0m               [01;34mX11[0m
+hdparm.conf             pnm2ppa.conf     [01;34mxdg[0m
+host.conf               [01;34mpolkit-1[0m         zsh_command_not_found
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ pwd
+/home/csoto
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls Do[K[K/Do[K[K[K[K[K[Kls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         hw1ChrisSoto.txt  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m             [01;34mPublic[0m    [01;34mVideos[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls ~/Documents
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls ~/Documents[K[K[K[K[K[K[K[K[K[K[K./
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         hw1ChrisSoto.txt  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m             [01;34mPublic[0m    [01;34mVideos[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls .//[K./
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         hw1ChrisSoto.txt  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m             [01;34mPublic[0m    [01;34mVideos[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls ././[K[K[K./
+[0m[01;34mcsoto[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ cd Do[K[K./Documents
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ pwd
+/home/csoto/Documents
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ file file.x[K[K[K[K[K[K./file.txt
+./file.txt: cannot open `./file.txt' (No such file or directory)
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ nano file.txt
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.8.6                    File: file.txt                              [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[?12l[?25h[3d[39;49m(B[m[1;71H(B[0;7mModified(B[m[3dthis is a file[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: file.txt                                 (B[m[22;29H[K[1;79H[?25l[22;33H(B[0;7m[ Wrote 1 line ](B[m[1;71H(B[0;7m        (B[m[22d[J[24;80H[24;1H[?12l[?25h[?1049l[?1l>]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ l
+file.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+file.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ file file.txt 
+file.txt: ASCII text
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ man file
+[?1049h[?1h=FILE(1)                   BSD General Commands Manual                  FILE(1)[m
+[m
+[1mNAME[0m[m
+     [1mfile[0m — determine file type[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mfile[0m [[1m-bcdEhiklLNnprsvzZ0[0m] [[1m--apple[0m] [[1m--extension[0m] [[1m--mime-encoding[0m][m
+          [[1m--mime-type[0m] [[1m-e[0m [4mtestname[24m] [[1m-F[0m [4mseparator[24m] [[1m-f[0m [4mnamefile[24m][m
+          [[1m-m[0m [4mmagicfiles[24m] [[1m-P[0m [4mname=value[24m] [4mfile[24m [4m...[24m[m
+     [1mfile[0m [1m-C[0m [[1m-m[0m [4mmagicfiles[24m][m
+     [1mfile[0m [[1m--help[0m][m
+[m
+[1mDESCRIPTION[0m[m
+     This manual page documents version 5.32 of the [1mfile[0m command.[m
+[m
+     [1mfile[0m tests each argument in an attempt to classify it.  There are three[m
+     sets of tests, performed in this order: filesystem tests, magic tests,[m
+     and language tests.  The [4mfirst[24m test that succeeds causes the file type to[m
+     be printed.[m
+[m
+     The type printed will usually contain one of the words [4mtext[24m (the file[m
+     contains only printing characters and a few common control characters and[m
+     is probably safe to read on an ASCII terminal), [4mexecutable[24m (the file con‐[m
+[7m Manual page file(1) line 1 (press h for help or q to quit)[27m[K[K     tains the result of compiling a program in a form understandable to some[m
+[7m Manual page file(1) line 2 (press h for help or q to quit)[27m[K[K     UNIX kernel or another), or [4mdata[24m meaning anything else (data is usually[m
+[7m Manual page file(1) line 3 (press h for help or q to quit)[27m[K[K     “binary” or non-printable).  Exceptions are well-known file formats (core[m
+[7m Manual page file(1) line 4 (press h for help or q to quit)[27m[K[K     files, tar archives) that are known to contain binary data.  When adding[m
+[7m Manual page file(1) line 5 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ man man
+[?1049h[?1h=MAN(1)                        Manual pager utils                        MAN(1)[m
+[m
+[1mNAME[0m[m
+       man - an interface to the on-line reference manuals[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mman[0m  [[1m-C[0m  [4mfile[24m]  [[1m-d[0m]  [[1m-D[0m]  [[1m--warnings[0m[=[4mwarnings[24m]]  [[1m-R[0m [4mencoding[24m] [[1m-L[0m[m
+       [4mlocale[24m] [[1m-m[0m [4msystem[24m[,...]] [[1m-M[0m [4mpath[24m] [[1m-S[0m [4mlist[24m]  [[1m-e[0m  [4mextension[24m]  [[1m-i[0m|[1m-I[0m][m
+       [[1m--regex[0m|[1m--wildcard[0m]   [[1m--names-only[0m]  [[1m-a[0m]  [[1m-u[0m]  [[1m--no-subpages[0m]  [[1m-P[0m[m
+       [4mpager[24m] [[1m-r[0m [4mprompt[24m] [[1m-7[0m] [[1m-E[0m [4mencoding[24m] [[1m--no-hyphenation[0m] [[1m--no-justifi‐[0m[m
+       [1mcation[0m]  [[1m-p[0m  [4mstring[24m]  [[1m-t[0m]  [[1m-T[0m[[4mdevice[24m]]  [[1m-H[0m[[4mbrowser[24m]] [[1m-X[0m[[4mdpi[24m]] [[1m-Z[0m][m
+       [[[4msection[24m] [4mpage[24m[.[4msection[24m] ...] ...[m
+       [1mman[0m [1m-k[0m [[4mapropos[24m [4moptions[24m] [4mregexp[24m ...[m
+       [1mman[0m [1m-K[0m [[1m-w[0m|[1m-W[0m] [[1m-S[0m [4mlist[24m] [[1m-i[0m|[1m-I[0m] [[1m--regex[0m] [[4msection[24m] [4mterm[24m ...[m
+       [1mman[0m [1m-f[0m [[4mwhatis[24m [4moptions[24m] [4mpage[24m ...[m
+       [1mman[0m [1m-l[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [[1m--warnings[0m[=[4mwarnings[24m]]  [[1m-R[0m  [4mencoding[24m]  [[1m-L[0m[m
+       [4mlocale[24m]  [[1m-P[0m  [4mpager[24m]  [[1m-r[0m  [4mprompt[24m]  [[1m-7[0m] [[1m-E[0m [4mencoding[24m] [[1m-p[0m [4mstring[24m] [[1m-t[0m][m
+       [[1m-T[0m[[4mdevice[24m]] [[1m-H[0m[[4mbrowser[24m]] [[1m-X[0m[[4mdpi[24m]] [[1m-Z[0m] [4mfile[24m ...[m
+       [1mman[0m [1m-w[0m|[1m-W[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [4mpage[24m ...[m
+       [1mman[0m [1m-c[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [4mpage[24m ...[m
+       [1mman[0m [[1m-?V[0m][m
+[m
+[1mDESCRIPTION[0m[m
+[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  file.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ mkdir tutorial
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+file.txt  [0m[01;34mtutorial[0m
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ cd tutorial/[K[K[K[K[K[K[K[K[K[K[K[Kchmod tutorial/
+chmod: missing operand after ‘tutorial/’
+Try 'chmod --help' for more information.
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ chmod tutorial/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kchmod
+chmod: missing operand
+Try 'chmod --help' for more information.
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ cd l[Ktutorial/
+]0;csoto@ubuntu: ~/Documents/tutorial[01;32mcsoto@ubuntu[00m:[01;34m~/Documents/tutorial[00m$ ls
+]0;csoto@ubuntu: ~/Documents/tutorial[01;32mcsoto@ubuntu[00m:[01;34m~/Documents/tutorial[00m$ pwd
+/home/csoto/Documents/tutorial
+]0;csoto@ubuntu: ~/Documents/tutorial[01;32mcsoto@ubuntu[00m:[01;34m~/Documents/tutorial[00m$ cd ..
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+file.txt  [0m[01;34mtutorial[0m
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ rmdir tutorial/
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+file.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ cp file.txt file2.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  file2.txt  file.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ mv file2.txt ../
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+file.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ cd ..
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         file2.txt         [01;34mMusic[0m     [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDocuments[0m  examples.desktop  hw1ChrisSoto.txt  [01;34mPictures[0m  [01;34mTemplates[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ filef [K[K file2.txt 
+file2.txt: ASCII text
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ pwd
+/home/csoto
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ld -all
+ld: unrecognized option '-all'
+ld: use the --help option for usage information
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls -all
+total 112
+drwxr-xr-x 16 csoto csoto  4096 Jan 22 23:06 [0m[01;34m.[0m
+drwxr-xr-x  3 root  root   4096 Jan 22 22:37 [01;34m..[0m
+-rw-r--r--  1 csoto csoto   220 Jan 22 22:37 .bash_logout
+-rw-r--r--  1 csoto csoto  3771 Jan 22 22:37 .bashrc
+drwx------ 10 csoto csoto  4096 Jan 22 23:02 [01;34m.cache[0m
+drwxr-xr-x 11 csoto csoto  4096 Jan 22 22:47 [01;34m.config[0m
+drwxr-xr-x  2 csoto csoto  4096 Jan 22 22:46 [01;34mDesktop[0m
+drwxr-xr-x  2 csoto csoto  4096 Jan 22 23:06 [01;34mDocuments[0m
+drwxr-xr-x  2 csoto csoto  4096 Jan 22 22:46 [01;34mDownloads[0m
+-rw-r--r--  1 csoto csoto  8980 Jan 22 22:37 examples.desktop
+-rw-r--r--  1 csoto csoto    15 Jan 22 23:06 file2.txt
+drwx------  2 csoto csoto  4096 Jan 22 22:46 [01;34m.gnupg[0m
+-rw-r--r--  1 csoto csoto 16384 Jan 22 23:06 hw1ChrisSoto.txt
+-rw-------  1 csoto csoto   318 Jan 22 22:46 .ICEauthority
+drwxr-xr-x  3 csoto csoto  4096 Jan 22 22:46 [01;34m.local[0m
+drwxr-xr-x  2 csoto csoto  4096 Jan 22 22:46 [01;34mMusic[0m
+drwxr-xr-x  2 csoto csoto  4096 Jan 22 23:04 [01;34m.nano[0m
+drwxr-xr-x  2 csoto csoto  4096 Jan 22 22:46 [01;34mPictures[0m
+-rw-r--r--  1 csoto csoto   675 Jan 22 22:37 .profile
+drwxr-xr-x  2 csoto csoto  4096 Jan 22 22:46 [01;34mPublic[0m
+drwx------  2 csoto csoto  4096 Jan 22 22:46 [01;34m.ssh[0m
+drwxr-xr-x  2 csoto csoto  4096 Jan 22 22:46 [01;34mTemplates[0m
+drwxr-xr-x  2 csoto csoto  4096 Jan 22 22:46 [01;34mVideos[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls file2.txt 
+file2.txt
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls file2.txt [1@-[1@a[1@ 
+file2.txt
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ more file2.txt 
+this is a file
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ rm file2.txt 
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         hw1ChrisSoto.txt  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m             [01;34mPublic[0m    [01;34mVideos[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ la -a
+[0m[01;34m.[0m             [01;34m.cache[0m     [01;34mDownloads[0m         .ICEauthority  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34m..[0m            [01;34m.config[0m    examples.desktop  [01;34m.local[0m         .profile  [01;34mVideos[0m
+.bash_logout  [01;34mDesktop[0m    [01;34m.gnupg[0m            [01;34mMusic[0m          [01;34mPublic[0m
+.bashrc       [01;34mDocuments[0m  hw1ChrisSoto.txt  [01;34m.nano[0m          [01;34m.ssh[0m
+]0;csoto@ubuntu: ~[01;32mcsoto@ubuntu[00m:[01;34m~[00m$ touch [K[K[K[K[K[Kcd d[K./Documents
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+file.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ touch file.txt 
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+file.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ more file.txt 
+this is a file
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ touch e[Ktest.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+file.txt  test.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ more test.txt q[K[K
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ rm e[Ktest.txt 
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ ls
+file.txt
+]0;csoto@ubuntu: ~/Documents[01;32mcsoto@ubuntu[00m:[01;34m~/Documents[00m$ exit
+exit
+
+Script done on 2018-01-22 23:08:40-0800
