@@ -1,0 +1,75 @@
+Script started on 2018-02-27 04:52:51-0700
+]0;csoto@ubuntu: ~/os[01;32mcsoto@ubuntu[00m:[01;34m~/os[00m$ echo '[Ki;[Kll be using firefox as kmy pr[K[K[K[K[K[Kmy process
+ill be using firefox as my process
+]0;csoto@ubuntu: ~/os[01;32mcsoto@ubuntu[00m:[01;34m~/os[00m$ firefox &
+[1] 29258
+]0;csoto@ubuntu: ~/os[01;32mcsoto@ubuntu[00m:[01;34m~/os[00m$ ps =-[K[K=ui[K[K-[K[K-u
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+csoto      1354  0.0  0.1 190552  5544 tty2     Ssl+ Feb26   0:00 /usr/lib/gdm3/
+csoto      1358  0.0  0.4 589276 17600 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1439  1.4  7.5 3099632 303272 tty2   Sl+  Feb26   7:05 /usr/bin/gnome
+csoto      1446  0.0  1.6 313428 67812 tty2     S+   Feb26   0:06 /usr/bin/Xwayl
+csoto      1491  0.1  0.3 371676 12176 tty2     Sl   Feb26   0:36 ibus-daemon --
+csoto      1495  0.0  0.2 289220  8060 tty2     Sl   Feb26   0:00 /usr/lib/ibus/
+csoto      1497  0.0  1.1 492928 47536 tty2     Sl   Feb26   0:00 /usr/lib/ibus/
+csoto      1542  0.0  0.2 289104  8100 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1543  0.0  1.2 664136 49296 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1545  0.0  0.2 338364  9952 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1547  0.0  0.1 416100  5792 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1548  0.0  0.1 268488  5244 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1549  0.0  0.2 462324 10868 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1551  0.0  0.2 385132  9684 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1552  0.0  0.2 335472  9624 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1554  0.0  1.1 577396 48180 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1557  0.0  1.2 640764 48476 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1570  0.0  1.1 568588 46908 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1571  0.0  0.2 289100  8312 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1573  0.0  1.1 492556 46644 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1576  0.0  1.2 805648 49224 tty2     Sl+  Feb26   0:02 /usr/lib/gnome
+csoto      1577  0.0  0.4 488680 16948 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1580  0.0  0.2 367140  8760 tty2     Sl+  Feb26   0:01 /usr/lib/gnome
+csoto      1582  0.0  1.1 644860 46888 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1583  0.0  1.2 939792 49460 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1599  0.0  0.3 524740 14988 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1667  0.0  0.2 213368  8076 tty2     Sl   Feb26   0:09 /usr/lib/ibus/
+csoto      1709  0.0  0.1 271496  5772 tty2     Sl+  Feb26   0:00 /usr/lib/gnome
+csoto      1715  0.0  0.7 252300 28248 tty2     S+   Feb26   0:22 /usr/bin/vmtoo
+csoto      1716  0.0  1.6 1015456 65016 tty2    Sl+  Feb26   0:03 nautilus-deskt
+csoto      1718  0.0  0.3 167468 15440 tty2     S+   Feb26   0:00 kerneloops-app
+csoto      1720  0.0  2.5 886732 102100 tty2    SLl+ Feb26   0:02 /usr/bin/gnome
+csoto      1801  0.0  0.7 668436 28284 tty2     Sl+  Feb26   0:00 update-notifie
+csoto      1851  0.0  0.8 878436 33136 tty2     Sl+  Feb26   0:00 /usr/lib/x86_6
+csoto     21263  0.0  0.1  24848  7316 pts/1    Ss   Feb26   0:01 bash
+csoto     29246  0.0  0.0  22168  2716 pts/1    S+   04:52   0:00 script hw3.txt
+csoto     29247  0.0  0.1  22852  5548 pts/0    Ss   04:52   0:00 bash -i
+csoto     29258 12.8  5.6 2076228 225640 pts/0  Sl   04:53   0:01 /usr/lib/firef
+csoto     29309  6.0  3.9 1965316 159576 pts/0  Sl   04:53   0:00 /usr/lib/firef
+csoto     29350  1.3  2.2 1910632 89868 pts/0   Sl   04:53   0:00 /usr/lib/firef
+csoto     29376  0.0  0.0  41932  3544 pts/0    R+   04:53   0:00 ps -u
+]0;csoto@ubuntu: ~/os[01;32mcsoto@ubuntu[00m:[01;34m~/os[00m$ \[Kls
+hw1ChrisSoto.txt  hw3.txt  oshw3prototype.py  oshw3.py
+]0;csoto@ubuntu: ~/os[01;32mcsoto@ubuntu[00m:[01;34m~/os[00m$ python oshw3.py 
+Please enter name and date to save process status (name xx-xx-xx):firefox 2-27-18
+Do you wish to terminate process y/n?y
+Waiting for user to kill process...
+Waiting for user to kill process...
+Waiting for user to kill process...
+Waiting for user to kill process...
+Waiting for user to kill process...
+Process killed.
+Waiting for process to restart...
+Waiting for process to restart...
+Waiting for process to restart...
+Recovering process status...
+
+   PID TTY      STAT   TIME COMMAND
+
+ 29258 pts/0    Sl     0:01 /usr/lib/firefox/firefox
+
+[1]+  Done                    firefox
+]0;csoto@ubuntu: ~/os[01;32mcsoto@ubuntu[00m:[01;34m~/os[00m$ python oshw3.py ls[Kps -ufirefox &echo ill be using firefox as my process[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KI manually killed the process in another terminal window [A
+I manually killed the process in another terminal window
+]0;csoto@ubuntu: ~/os[01;32mcsoto@ubuntu[00m:[01;34m~/os[00m$ exit
+exit
+
+Script done on 2018-02-27 04:55:00-0700
